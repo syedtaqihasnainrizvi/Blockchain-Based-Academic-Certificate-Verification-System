@@ -1,0 +1,14 @@
+﻿blinker
+cffi
+click
+colorama
+cryptography
+Flask
+flask-cors
+gunicorn
+itsdangerous
+Jinja2
+MarkupSafe
+packaging
+pycparser
+Werkzeug
