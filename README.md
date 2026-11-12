@@ -1,4 +1,4 @@
-# ⛓ CredChain — Blockchain-Based Academic Credential Verification
+# 🛡 tanm — Blockchain-Based Academic Certificate  Verification System
 
 ![Status](https://img.shields.io/badge/status-live-brightgreen)
 ![Backend](https://img.shields.io/badge/backend-Flask%20%2B%20Python-blue)
@@ -67,7 +67,7 @@
 | Energy | Extremely high | Negligible |
 | Real-world use | Bitcoin | **Hyperledger Fabric, this project** |
 
-A university credential system has a **known, fixed set of participants**
+A university certificate verification system has a **known, fixed set of participants**
 (registrar offices). PoW's expensive computation serves no purpose here —
 PoA is the industry-standard choice for exactly this use case.
 
@@ -92,7 +92,7 @@ verify authenticity using the public key — without contacting the university.
 ## 📁 Project Structure
 
 ```
-credchain/
+tanm/
 ├── backend/
 │   ├── app.py              # Flask REST API (11 routes)
 │   ├── blockchain_core.py  # Block, MerkleTree, Blockchain
@@ -159,15 +159,15 @@ npm run dev                  # Runs on http://localhost:3000
 
 ## 🎓 Academic Context
 
-This project was built as a submission for the **Blockchain Architecture
-Design** internal assessment. It demonstrates:
+This working prototype (**tanm**) was developed as a **4th Year External Project Assignment** for the **B.Tech in Computer Science & Engineering(CSE)** program under the topic **"Blockchain-Based Academic Certificate Verification System"**. 
 
-- Layered blockchain architecture (Data → Security → Consensus → Application)
-- Practical justification for PoA over PoW in a permissioned network
-- Cryptographic credential signing with RSA-2048
-- Merkle tree batching for efficient block storage
-- Real-time tamper detection via SHA-256 hash chain validation
-- Full-stack implementation: Python/Flask backend + React/Vite frontend
+The project solves real-world certificate forgery and slow manual verification by implementing:
+- **Layered Blockchain Architecture:** Clear separation of Data, Security, Consensus, and Application layers.
+- **Proof-of-Authority (PoA) Consensus:** Fast, energy-efficient block sealing using trusted registrar validator nodes instead of heavy Proof-of-Work mining.
+- **RSA-2048 Digital Signatures:** Cryptographic signing by the issuing institution to prove certificate authenticity without needing direct database access.
+- **Merkle Tree Batching:** Efficient grouping of multiple academic credentials into a single block root hash.
+- **Real-Time Tamper Detection:** Instant detection of any unauthorized modification via SHA-256 hash chain validation.
+- **Full-Stack Implementation:** End-to-end working web application built with a **Python/Flask** backend and a **React/Vite** frontend.
 
 ---
 
@@ -181,4 +181,7 @@ Design** internal assessment. It demonstrates:
 
 ---
 
-*Built by Ishika Barnwal — Blockchain Architecture Design, 2026*
+*👨‍💻 Developed By (B.Tech CSE — 4th Year)*
+- **Syed Mohd Taqi Hasnain Rizvi**(Leader)
+- **Suhail Ansari**
+- **Syed Mohd Murtaza Husain**
