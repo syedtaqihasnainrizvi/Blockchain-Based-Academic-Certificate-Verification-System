@@ -5,10 +5,10 @@ export default function Sidebar() {
   return (
     <aside className="sidebar">
       <div className="sidebar-brand">
-        <div className="sidebar-logo">⛓</div>
+        <div className="sidebar-logo">🛡</div>
         <div>
-          <div className="sidebar-brand-name">CredChain</div>
-          <div className="sidebar-brand-sub">Academic Ledger</div>
+          <div className="sidebar-brand-name">Tanm</div>
+          <div className="sidebar-brand-sub">Academic Certificate Verification System</div>
         </div>
       </div>
 

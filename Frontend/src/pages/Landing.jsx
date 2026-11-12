@@ -31,15 +31,13 @@ export default function Landing() {
           animate="show"
           variants={fadeUp}
         >
-          <div className="hero-eyebrow">Blockchain Architecture Project</div>
+          <div className="hero-eyebrow">Blockchain Certificate Verification Project</div>
           <h1 className="hero-title">
-            Academic Credentials,<br />
-            <span className="hero-title-accent">Verified On-Chain.</span>
+            Academic Certificate,<br />
+            <span className="hero-title-accent">Verification System.</span>
           </h1>
           <p className="hero-subtitle">
-            A permissioned blockchain system where universities sign and seal
-            student credentials with cryptographic proof — tamper-evident,
-            consensus-validated, instantly verifiable.
+            Blockchain-Based Academic Certificate Verification System is a web-based application that uses blockchain technology to securely store and verify academic certificates. It helps prevent fake certificates, data tampering, and forgery by maintaining records in a tamper-resistant blockchain. Educational institutions can issue certificates, and employers or other users can verify their authenticity quickly and easily using a unique certificate ID.
           </p>
           <div className="hero-actions">
             <button className="btn btn-primary btn-lg" onClick={() => navigate('/dashboard')}>
